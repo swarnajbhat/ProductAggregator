@@ -49,7 +49,7 @@ public class ProductAggregatorService {
 
 
 
-	public void updateProductPricingById(String id, @Valid ProductAggregator productAggregator) {
+	public void updateProductPricingById(String id, ProductAggregator productAggregator) {
 		
 		ProductPricing pricingRequest = createProductPricingRequest(id,productAggregator);
 		productPricingService.updateProductPricingInfo(id, pricingRequest);
