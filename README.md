@@ -10,4 +10,17 @@ Database: MongoDb - downaloadable here - https://www.mongodb.com/try/download/co
 Database Tools - Compass 
 SpringBoot version - 2.7.0
 
+Running Port - 5005
 
+Microservice pattern used - aggreagtor
+
+Running Instructions: 
+
+a. make sure you are running Product Details and Product Pricing services: 
+https://github.com/swarnajbhat/ProductPricing
+
+https://github.com/swarnajbhat/ProductDetails
+
+b. git clone this repository and import it to eclipse or any IDE
+
+c. run as mvn spring boot
